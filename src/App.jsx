@@ -4,7 +4,7 @@ import Offers from "./components/Offers"
 import Banner from "./components/Banner"
 import Rooms from "./components/Rooms"
 import Slider from "./components/Slider"
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 const App=()=>{
   return (
     <div>
