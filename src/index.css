@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    button{
+        @apply bg-black text-white text-lg font-medium py-2 px-4 
+        rounded-full
+    }
+}
+
+/* css for custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(1, 52, 125);
+}
+::-webkit-scrollbar-thumb {
+    background: #71ccf4;
+    border-radius: 5px;
+}
